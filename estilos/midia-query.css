@@ -15,6 +15,7 @@
 }
 
 @media screen and (min-width: 701px) and (max-width: 1200px) {
+    /* Configuração para tablet */
   body {
     background: url(../imagens/image\ do\ projeto\ login.jpg) no-repeat;
     background-position: center center;
@@ -22,6 +23,7 @@
   }
   section#login {
     width: 80vw;
+    height: 280px;
   }
 
   section#login > div#imagem {
@@ -37,6 +39,7 @@
 }
 
 @media screen and (min-width: 1201px) {
+    /* Para configurações de desktop */
   body {
     background: url(../imagens/image\ do\ projeto\ login.jpg) no-repeat;
     background-position: center center;
@@ -45,6 +48,7 @@
 
   section#login {
     width: 980px;
+    height: 350px;
   }
 
   section#login > div#imagem {
@@ -61,6 +65,7 @@
     font-size: 2.0em;
   }
   div#formulario>p{
-    font-size: 1.2em;
+    font-size: 1.em;
+    margin: 20px 0px;
 }
 }
