@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* Typical Device Breakpoiint
+-----------------------------
+   Pequenas telas e Celular: Até 700px;
+   Tablet: de 701px a 1200px;
+   Desktop: de 1201px a 1400px;
+   TV: de 1400px a mais pra cima;
+   
+*/
+:root{
+    --cor1:  #21424E ;
+    --cor2:  #49A09D ;
+    --cor3:  #FFFFFF ;
+    --cor4:  #000000 ;
+}
+
+@media screen and (min-width:701px) and (max-width:1200px){
+    body{
+        background: url(../imagens/image\ do\ projeto\ login.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+    section#login{
+        width: 80vw;
+    }
+
+    section#login>div#imagem{
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    section#login>div#formulario{
+        float:right;
+        width: 65%;
+    }
+}
+
+@media  screen and (min-width:1201px){
+    body{
+        background: url(../imagens/image\ do\ projeto\ login.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    }
+
+    section#login{
+        width: 980px;
+    }
+
+    section#login>div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login>div#formulario{
+        float: right;
+        width: 50%;
+    }
+    
+}
