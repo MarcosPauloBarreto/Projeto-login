@@ -45,8 +45,9 @@ section#login {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 
+
+    transform: translate(-50%,-50%);
   transition: width 0.5s, heigth 0.5s; /* A transição entre as Midias Queries*/
   transition-timing-function: ease; /* Para a transição ficar mais limpa*/
 }
@@ -101,10 +102,10 @@ div.campo>input{
     font-size: 1em;
     width: calc(100% - 45px) ;
     height: 100%;
-    transform: translateY(-11px);
     border: none;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-11px);
 }
 
 div.campo>input:focus-within{
